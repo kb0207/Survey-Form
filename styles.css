@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html{
+  min-height:100%;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+body{
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #ffffff;
+    margin: 20px 0 20px 0;
+}
+
+label{
+  display:block;
+  font-size:1.125rem;
+}
+
+h1,p{
+  text-align:center;
+}
+
+h1{
+  margin: 1em 0 0 0;
+}
+
+p{
+  margin:0 0 2em 0;
+}
+
+form{
+  padding:3rem;
+  width: 70%;
+  max-width:650px;
+  background-color:rgba(27, 27, 50, 0.8);
+  margin:0 auto;
+  border-radius:2px;
+}
+
+#number,#name,#email,select{
+  display:block;
+  width:100%;
+  height:2.5rem;
+  margin-top:0.5rem;
+  margin-bottom:1.5rem;
+  font-size:1.125rem; 
+  padding-left:0.5rem;
+  color:#808080;
+  border-radius:2px;
+  border:rgba(27, 27, 50, 0.8);
+}
+
+.checkboxes{
+  margin:10px 0;
+
+}
+
+input[type="checkbox"]{
+  height:18px;
+  width:18px;
+  margin-top:-1px;
+  vertical-align: middle;
+}
+
+input[type="radio"]{
+  height:20px;
+  width:20px;
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
+.recemmond-fcc{
+  padding-bottom:0.5em;
+}
+
+label[for="definitely"]{
+  padding-top:0.5em;
+}
+
+label[for="fav-feature"]{
+  margin-top:2em;
+}
+
+
+label[for="comments-and-suggestions"]{
+  padding-top:2em;
+}
+
+textarea{
+  padding:5px;
+  margin: 20px 0 0 0;
+  width:100%;
+  font-size:18px;
+}
+
+
+input[type="submit"]{
+  background-color:#37af65;
+  color:#ffffff;
+  width:100%;
+  border:none;
+  border-radius:2px;
+  margin:2em 0;
+  height:3rem;
+  cursor:pointer;
+  margin-bottom:0px;
+  font-size:1.1rem;
+  padding:1px;
+}
+
+
+
+
+

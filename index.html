@@ -1,0 +1,75 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Survey Form</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <i><p id="description">Thank you for taking the time to help us improve the platform</p></i>
+    
+    <!-- FORM -->
+    
+    <form id="survey-form">
+    
+    
+      <label id="name-label" for="name"> Name <input class="form-1-css" id="name" type="text" required placeholder="Enter your Name"></label>
+      <label id="email-label" for="email"> Email <input class="form-1-css" id="email" type="email" required placeholder="Enter your Email"></label>
+      <label id="number-label" for="number"> Age (optional) <input class="form-1-css" id="number" min="10" max="99" type="number" placeholder="Age"></label>
+      <label for="current-role"> Which option describes your current role?
+        <select id="dropdown">
+          <option value=""> Select current role </option>
+          <option value="1"> Student </option>
+          <option value="2"> Full Time Job </option>
+          <option value="3"> Full Time Learner </option>
+          <option value="4"> Prefer not to say </option>
+          <option value="5"> Other </option>
+        </select>
+      </label>
+    
+    
+    <label> Would you recemmond freeCodeCamp to a friend? </label>
+        <label class="recemmond-fcc" for="definitely"><input value="Definitely" id="definitely" name="choice" type="radio" checked> Definitely </label>
+        <label class="recemmond-fcc" for="maybe"><input value="Maybe" id="maybe" name="choice" type="radio"> Maybe </label>
+        <label class="recemmond-fcc" for="not-sure"><input value="Not Sure" id="not-sure" name="choice" type="radio"> Not Sure </label>
+      
+      
+      
+    <label for="fav-feature">What is your favourite feature of freeCodeCamp?
+        <select  id="fav-feature">
+          <option value=""> Select an option </option>
+          <option value="1"> Challenges </option>
+          <option value="2"> Projects </option>
+          <option value="3"> Community </option>
+          <option value="4"> Open Source </option>
+        </select>
+      </label>
+    
+    <label>What would you like to see improved (Check all that apply)</label>
+      <label class="checkboxes" for="front-end"><input value="Front-end Projects" class="checkbox id="front-end" type="checkbox"> Front-end Projects </label>
+      <label class="checkboxes" for="back-end"><input value="Back-end Projects" id="back-end" type="checkbox"> Back-end Projects </label>
+      <label class="checkboxes" for="data-visualization"><input value="Data Visualization" id="data-visualization" type="checkbox"> Data Visualization </label>
+      <label class="checkboxes" for="challenges"><input value="Challenges" id="challenges" type="checkbox"> Challenges </label>
+      <label class="checkboxes" for="open-source"><input value="Open Source Community" id="open-source" type="checkbox"> Open Source Community </label>
+      <label class="checkboxes" for="gitter-help"><input value="Gitter help rooms" id="gitter-help" type="checkbox"> Gitter help rooms </label>
+      <label class="checkboxes" for="videos"><input value="Videos" id="videos" type="checkbox"> Videos </label>
+      <label class="checkboxes" for="city-meetups"><input value="City Meetups" id="city-meetups" type="checkbox"> City Meetups </label>
+      <label class="checkboxes" for="wiki"><input value="Wiki" id="wiki" type="checkbox"> Wiki </label>
+      <label class="checkboxes" for="forum"><input value="Forum" id="forum" type="checkbox"> Forum </label>
+      <label class="checkboxes" for="additional-courses"><input value="Additional Courses" id="additional-courses" type="checkbox"> Additional Courses </label>
+    
+    
+      <label for="comments-and-suggestions"> Any comments and suggestions? 
+        <textarea id="comments-and-suggestions"  rows="5" cols="35" placeholder="Enter your comment and suggestions here..."></textarea>
+      </label>
+    
+      <label for="submit-btn"><input id="submit" type="submit" value="Submit" cursor="pointer"></label>
+    
+    
+      
+    </form>
+    </body>
+    </html>
+    
+    
